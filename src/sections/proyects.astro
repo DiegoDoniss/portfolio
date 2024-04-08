@@ -1,0 +1,26 @@
+---
+import CartProyect from "../components/CartProyect.astro";
+---
+
+<section class="my-5" id="proyects">
+  <div class="container mx-auto rounded-md bg-white p-10">
+    <h2 class="text-2xl">Proyectos</h2>
+    <div
+      class="mt-5 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-center gap-5"
+    >
+      <CartProyect
+        image="instrumentaltaste.png"
+        title="Instrumental taste"
+        description="Tienda online de instrumentos musicales desarrollado a la medida sin CMS con conexión directa sistema administrativo, modulo de ventas e inventario."
+        url="https://instrumentaltaste.com"
+      />
+
+      <CartProyect
+        image="dino.png"
+        title="ASCII-Art"
+        description="Pequeño proyecto que permite cargar una imagen y convertirla en una serie de caracteres para copiar y pegar"
+        url="https://diegodoniss.github.io/ASCII-Art/"
+      />
+    </div>
+  </div>
+</section>
